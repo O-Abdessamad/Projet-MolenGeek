@@ -1,0 +1,470 @@
+#logoF{
+    border-right: 1px solid grey;
+}
+.navbar-nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+.nav-item{
+    margin-right: 25px;
+    text-align: center;
+}
+.nav-btn-CP{
+    border-left: 1px solid grey;
+  
+}
+.nav-btnCon{
+    border: none;
+    font-size: 20px;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;   
+    color: #000; 
+}
+.nav-link:hover{
+    border-bottom: 4px solid gray;
+
+}
+.nav-btnCon:hover{
+    background-color: purple;
+    color: aliceblue;
+    border-bottom: 2px solid lightblue;
+    font-weight: bolder;
+}
+/***** End NAV *****/
+
+/***** COVERTURE *****/
+.covP1{
+    height: 850px;
+
+}
+
+.covP{
+    background-image: url(../image/coverture.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: darken;
+    position: relative;
+}
+.covF{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family:Century Gothic;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);   
+}
+.titre1{
+    font-size: 85px;
+}
+.btnCo{
+    background-color: purple; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/***** End COUVERTURE *****/
+
+/***** Section de texte *****/
+.tx-titre1{
+    color: purple;
+}
+.tx-titre{
+    margin-top: 20px;
+    font-family:Century Gothic;
+    text-align: center;
+}
+
+/***** End Section de texte *****/
+
+/***** Card *****/
+
+.t-card{
+    color: rgb(99, 98, 98);
+    font-weight: bold;
+    margin: 40px 0;
+}
+.btnCard{
+    background-color: purple; 
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 100px;
+}
+.colhover:hover{
+    background-color: rgb(121, 48, 121);
+
+}
+/***** End Card *****/
+/*****  Formation *****/
+.titre-formation{
+    text-align: center;
+    font-weight: 700;
+    margin: 80px 0;
+}
+.titre-fC{
+    text-align: end;
+    color: #e63d1c;
+    font-family: montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.titre-fL{
+    color:#2071b7;
+    font-family: montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.tx-T{
+    color: #333;
+    font-family: montserrat,Sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 80px 0;
+    margin-left: 80px;
+}
+.img-FC{
+    width: 432px;
+    height: 332px;
+}
+.ul-formation{
+    margin: 50px 0;
+    list-style-type: none
+}
+.link-formation{
+    display: block;
+    color:  #944d9e;
+    text-decoration: none;   
+    font-family: montserrat,Sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 15px;
+}
+/*****  Formation Court *****/
+.btn-formationC{
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    font-family: roboto,Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #e63d1c;
+    border-radius: 36px 36px 36px 36px;
+}
+.btn-formationL{
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    font-family: roboto,Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #2071b7;
+    border-radius: 36px 36px 36px 36px;
+}
+.fromation-CP{
+
+    margin: 50px 20px 0 0;
+    text-align: center;
+    color: #333;
+    font-family: montserrat,Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.img-court{
+    width: 260px;
+    height: 305px;
+    margin: 10px 0;
+}
+.btn-TF{
+    color: white;
+    font-family: roboto;
+    font-weight: 400;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,.5);
+    background-color: #944d9e;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+/***** End Formation Court *****/
+/***** Formation Longues *****/
+.titre-formationL{
+    text-align: center;
+    font-family: montserrat,Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.formationL1{
+    border-style: solid;
+    border-color: #944d9e;
+}
+.f-num{
+    color: #000;
+    font-family: roboto,Sans-serif;
+    font-size: 84px;
+    font-weight: 600;
+    padding: 10px 10px 10px 0px;
+}
+.f-txt-T{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    font-family: roboto,Sans-serif;
+    font-weight: 500;
+}
+
+.f-btn{
+    font-size: 18px;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #944d9e;
+    text-decoration: none;
+}
+.btnP{
+    position: relative;
+    width: 100%;
+
+}
+.btnF{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100% , -50%);
+
+}
+.formationL2{
+    border-style: solid;
+    border-color: #e63d1c;
+}
+.f-btn2{
+    font-size: 18px;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color:#e63d1c;
+    text-decoration: none;
+}
+.formationL3{
+    border-style: solid;
+    border-color:  #47ab34;
+}
+.f-btn3{
+    font-size: 18px;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #47ab34;
+    text-decoration: none;
+}
+.formationL4{
+    border-style: solid;
+    border-color:  #f2d202;
+}
+.f-btn4{
+    font-size: 18px;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #f2d202;
+    text-decoration: none;
+}
+.formationL5{
+    border-style: solid;
+    border-color: #2071b7;
+}
+.f-btn5{
+    font-size: 18px;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #2071b7;
+    text-decoration: none;
+}
+/***** Formation Longues *****/
+/***** Dates de Formation  *****/
+.date-formation{
+    border-bottom: 2px solid rgb(150, 76, 159);
+    margin-top: 30px;
+    padding:0 20px 20px 10px;
+    border-radius: 0px;
+
+}
+.date{
+    border: 2px solid #bc57be;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 13px 17px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    min-width: 160px;
+}
+.date-img{
+    margin: 0 40px;
+}
+.date-titre{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000;
+    white-space: nowrap;
+}
+.date-niveau{
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    white-space: nowrap;
+}
+/***** End Dates de Formation  *****/
+/***** End Formation *****/
+
+/***** Contact  *****/
+.Cbg{
+    background-color: #964ca0;
+    height:  300px;
+    padding: 50px 0;
+}
+.C-texte1{
+    color: #fff;
+    font-family: montserrat,Sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.C-texte2{
+    color: #fff;
+    font-family: montserrat,Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.C-link{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: roboto,Sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    color: #964ca0;
+    background-color: #fff;
+    box-shadow: 4px 5px 7px 0 rgba(0,0,0,.5);
+}
+.C-map{
+    height: 600px;
+    width: 55%;
+
+}
+.C-texte{
+    
+    background-color:  #964ca0;
+    height: 600px;
+    width: 45%;
+    color: white;
+}
+.C-titre{
+    color: #fff;
+    font-family: montserrat,Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    --divider-border-style: solid;
+    --divider-color: #FFFFFF;
+    --divider-border-width: 1px;
+}
+/***** End Contact  *****/
+/***** Formulaire  *****/
+.icone{
+    width: 100px;
+    height: 100px;
+}
+.input-contact{
+    border-color: #cfcfcf;
+    width: 100%;
+    border: 1px solid rgb(148, 148, 148);
+    padding: 0.5rem 1rem;
+}
+.btn-Contact{
+    background-color: #964ca0;
+    font-size: 15px;
+    color: #fff;
+    font-family: montserrat,Sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 12px 40px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+/* End formulaire */
+/* Footer */
+
+.Footer{
+    background-color:  #3c3c3c;
+    padding: 10px;   
+}
+.ftr-reseaux{
+    padding: 30px 60px 20px 40px;
+    border-bottom: 1px solid gray;
+    margin: 0 40px;
+
+}
+.ftr-liste{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.link-liste{
+    color: white;
+    text-decoration: none;
+    font-family: montserrat,Sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.copyright{
+    color: #5a5a5a;
+    font-family: roboto,Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.ftr-logo{
+    margin-top: 80px;
+}
+.fixed-img{
+    position:fixed ;
+    bottom: 20px;
+    right: 20px;
+}
+/* End Footer */
